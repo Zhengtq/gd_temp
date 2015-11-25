@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroupDate</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_my_groups">MyGroups</string>
+    <string name="title_activity_myself">Myself</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_group_list">GroupDate</string>
+    <string name="hello_world">GroupDate</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_list_item_detail">ListItemDetailActivity</string>
+    <string name="server_ip">http://180.76.176.71:8080</string>
+    <string name="server_ip_addr">180.76.176.71</string>
+    <string name="returnStr">返回</string>
+    <string name="addPartner">添加到伙伴列表</string>
+    <string name="create_group_str">新建团队</string>
+    <string name="title_activity_login">Login</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="submit">登录</string>
+    <string name="reset">重置</string>
+    <string name="title_activity_create_group">CreateGroupActivity</string>
+    <string name="title_activity_shopping">ShoppingActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="save_cookie_str">记住用户名和密码</string>
+    <string name="sign_in_str">注册</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_search_member">SearchMemberActivity</string>
+    <string name="title_activity_search_shop">SearchShopActivity</string>
+
+</resources>

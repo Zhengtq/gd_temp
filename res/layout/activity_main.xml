@@ -1,0 +1,96 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/allFlipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.temp.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/wait_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/wait_beautiful" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/fragment_home"
+            android:name="com.example.temp.Home"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" />
+
+        <fragment
+            android:id="@+id/fragment_mygroups"
+            android:name="com.example.temp.MyGroups"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" />
+
+        <fragment
+            android:id="@+id/fragment_myself"
+            android:name="com.example.temp.Myself"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" />
+
+        <fragment
+            android:id="@+id/fragment_info"
+            android:name="com.example.temp.Info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" />
+
+        <fragment
+            android:id="@+id/fragment_share"
+            android:name="com.example.temp.Share"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" />
+
+        <RadioGroup
+            android:id="@+id/bottomRg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbHome"
+                style="@style/rg_btn_style"
+                android:checked="true"
+                android:drawableTop="@drawable/my_groups"
+                android:text="推荐" />
+
+            <RadioButton
+                android:id="@+id/rbCreateGroup"
+                style="@style/rg_btn_style"
+                android:drawableTop="@drawable/create_group"
+                android:text="建队" />
+
+            <RadioButton
+                android:id="@+id/rbMySelf"
+                style="@style/rg_btn_style"
+                android:drawableTop="@drawable/myself"
+                android:text="个人" />
+
+            <RadioButton
+                android:id="@+id/rbInfo"
+                style="@style/rg_btn_style"
+                android:drawableTop="@drawable/info"
+                android:text="消息" />
+
+            <RadioButton
+                android:id="@+id/rbShare"
+                style="@style/rg_btn_style"
+                android:drawableTop="@drawable/share"
+                android:text="分享" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ViewFlipper>

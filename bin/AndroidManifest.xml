@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.temp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAG" />
+E
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GroupListActivity"
+            android:label="@string/title_activity_group_list" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".ListItemDetailActivity"
+            android:label="@string/title_activity_list_item_detail" >
+        </activity>
+        <activity
+            android:name=".CreateGroupActivity"
+            android:label="@string/title_activity_create_group" >
+        </activity>
+        <activity
+            android:name=".ShoppingActivity"
+            android:label="@string/title_activity_shopping" >
+        </activity>
+        <activity
+            android:name="com.gd.chat.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".SearchMemberActivity"
+            android:label="@string/title_activity_search_member" >
+        </activity>
+        <activity
+            android:name=".SearchShopActivity"
+            android:label="@string/title_activity_search_shop" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/myGroupLogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/empty_photo" />
+
+    <TextView
+        android:id="@+id/myGroupInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10">
+
+        <requestFocus />
+    </TextView>
+    
+    <Button
+        android:id="@+id/setActiveBt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:background="@drawable/select"
+        android:text="" />
+"
+
+</LinearLayout>
